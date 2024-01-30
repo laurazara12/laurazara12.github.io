@@ -20,9 +20,11 @@ body::before {
 
 @media (max-width: 768px) {
   body::before {
-    background-position: top right; /* Adjusted background position for smaller screens (e.g., vertical screens on mobile devices) */
+    background-position: 75% 50%; /* Adjusted background position for smaller screens, focusing on the third quadrant */
+    background-size: auto 100%; /* Maintain the aspect ratio and adjust height to cover the viewport */
   }
 }
+
 
 
 a {
